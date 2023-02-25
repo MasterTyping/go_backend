@@ -25,7 +25,6 @@ func main() {
 
 	r := gin.Default()
 	routes.Test(r)
-	routes.HealthCheck(r)
 
 	r.Run(":3001")
 }
